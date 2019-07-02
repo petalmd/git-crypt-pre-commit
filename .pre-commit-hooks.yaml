@@ -1,0 +1,5 @@
+- id: git-crypt
+  name: Avoid to commit unencrypted files
+  description: Pre-commit hook to avoid accidentally adding unencrypted files with git-crypt
+  entry: check-git-crypt.sh
+  language: script
